@@ -1,0 +1,16 @@
+
+<?php echo $DTable->setDeleteById('IDKecamatan'); ?>
+
+<?php echo $DTable->setEditById('IDKecamatan'); ?>
+
+<?php echo $DTable->set($pageHeading,
+                array(
+                    '#' => 'IDKecamatan',
+                    'Name'=>'Nama',
+                    'id Kabupaten'=>'TES'
+                    )
+                ); ?>
+
+<?php echo $DTable->show(); ?>
+
+            

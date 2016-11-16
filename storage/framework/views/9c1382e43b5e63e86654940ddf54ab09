@@ -1,0 +1,14 @@
+<?php echo $DTable->setDeleteById('code'); ?>
+
+<?php echo $DTable->setEditById('code'); ?>
+
+<?php echo $DTable->set($pageHeading,
+                array(
+                    'Code'=>'code',
+                    'Name'=>'name'
+                    )
+                ); ?>
+
+<?php echo $DTable->show(); ?>
+
+            

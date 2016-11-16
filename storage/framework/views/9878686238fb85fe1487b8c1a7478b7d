@@ -1,0 +1,16 @@
+<?php /*    
+    @project  pip.
+    @since  8/22/2016 10:21 AM
+@author  <a href = "fauzi.knightmaster.achmad@gmail.com">Achmad Fauzi</a>
+*/ ?>
+
+<?php $__env->startSection('page-content'); ?>
+    <?php echo $__env->make('template.scaffolding.list', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+    <script>
+        $(function () {
+            setPage('list');
+        });
+    </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('template.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

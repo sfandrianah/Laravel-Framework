@@ -1,0 +1,11 @@
+<?php /*
+    @project  pip.
+    @since  8/22/2016 10:21 AM
+    @author  <a href = "fauzi.knightmaster.achmad@gmail.com">Achmad Fauzi</a>
+*/ ?>
+<!DOCTYPE html>
+<html lang="en">
+    
+    <?php echo $__env->make('template.content-parent', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</html>
+<?php echo $__env->make('template.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,20 @@
+<?php $__env->startSection('page-new-edit'); ?>
+<form class="form-horizontal row-border"  id="validate-form" data-parsley-validate>
+    <?php echo $Form->groupTextBox('Nama','name','Input Nama'); ?>
+
+    <?php echo $Form->groupSelectBox('Kabupaten','kabupaten',[
+                array("value"=>"1","label"=>"1"),
+                array("value"=>"1","label"=>"1")
+            ]
+            ); ?>
+
+    <?php echo $Form->groupSelectBox('Kabupaten','kabupaten',[
+                array("value"=>"1","label"=>"1"),
+                array("value"=>"1","label"=>"1")
+            ]
+            ); ?>
+
+    </div>
+</form>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('template.scaffolding.new-edit', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
