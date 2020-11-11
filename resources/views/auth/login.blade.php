@@ -8,7 +8,7 @@
     <div class="col-md-4 col-md-offset-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h2>Login Form</h2>
+                <h2>Login Form SYAHRIAL </h2>
 
             </div>
 
